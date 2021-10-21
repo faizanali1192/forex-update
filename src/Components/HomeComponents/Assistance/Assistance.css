@@ -1,0 +1,29 @@
+.home-assistance-wrapper {
+    background-color: #9899AE;
+}
+
+.home-assistance-image {
+    height: 400px;
+}
+
+.home-assistance-btn {
+    border: none;
+    background-color: #B3B2C0;
+    color: azure;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background: #B3B2C0;
+    box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.25);
+}
+.home-assistance-btn:hover {
+    border: none;
+    background-color: #bab9ce;
+   
+}
+@media only screen and (max-width: 768px) {
+    .home-assistance-wrapper {
+        display: none;
+    }
+}

@@ -1,0 +1,54 @@
+.accounts-plans-wrapper {
+    background-image: url("../../../Assets/Images/trading-hero.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: auto; */
+    margin-top:30px;
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+
+.accounts-plan-cards {
+    box-shadow: 10px 10px 5px 0px rgba(77, 55, 55, 0.41);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(77, 55, 55, 0.41);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(77, 55, 55, 0.41);
+}
+
+.accounts-plans-cards-icons {
+    height: 90px;
+}
+
+.accounts-check-icon {
+    height: 20px;
+}
+
+.accounts-card-divider-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.accounts-card-divider {
+    width: 80%;
+    padding-top: 2px;
+    color: #701313;
+}
+
+.account-plans-buttons {
+    border: 2px solid #A13234;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 5px;
+    font-weight: 500;
+    color: #A13234;
+}
+
+.account-plans-buttons:hover {
+    background-color: #A13234;
+    color: white;
+}
+.check{
+    background-color: wheat;
+}

@@ -1,0 +1,15 @@
+
+ 
+    .home-post-btn {
+        height: 40px;
+        width: 200px;
+        color: azure;
+        background-color: #A13234;
+        border: none;
+        font-weight: 400;
+        
+    }
+    .home-post-btn:hover {
+        background-color: #7e1719;
+    }
+  

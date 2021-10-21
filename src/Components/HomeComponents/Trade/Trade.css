@@ -1,0 +1,43 @@
+.trade-wrapper {
+    background-image: url("../../../Assets/Images/trading-hero.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 500px; */
+    height: auto;
+    padding-top: 100px;
+    padding-bottom: 120px;
+}
+
+.home-trade-heading {
+    font-size: 45px;
+    color: azure;
+    font-weight: 500;
+}
+
+.home-trade-text {
+    font-size: 18px;
+    color: azure;
+}
+
+.home-trade-icons {
+    height: 50px;
+    width: 50px;
+}
+
+.home-trading-cards {
+    
+    max-width: 300px !important;
+    /* padding: 50px !important; */
+    box-shadow: 10px 10px 5px 0px rgba(77, 55, 55, 0.41);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(77, 55, 55, 0.41);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(77, 55, 55, 0.41);
+}
+.home-trading-cards-text{
+    font-size: 18px;;
+}
+@media only screen and (max-width: 768px) {
+    .trade-wrapper {
+        display: none;
+    }
+}

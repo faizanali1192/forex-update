@@ -1,0 +1,10 @@
+.trading-hero-wrapper {
+    background-image: url("../../../Assets/Images/trading-hero.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    height: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}

@@ -1,0 +1,17 @@
+.account-hero-heading {
+    color: #A13234;
+}
+
+@media only screen and (min-width: 768px) {
+    .account-hero-image {
+        max-height: 600px;
+        max-width: 600px
+    }
+}
+
+@media only screen and (max-width: 767px) { 
+    .account-hero-image {
+        max-height: 300px;
+        max-width: 300px
+    }
+}

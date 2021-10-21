@@ -1,0 +1,17 @@
+.mobile-choose-trade-heading {
+    color: #A13234;
+}
+
+.home-mobile-trade-icons {
+    height: 60px;
+}
+
+.home-mobile-trade-icons-text {
+    color: #A13234;
+}
+
+@media only screen and (min-width: 768px) {
+    .mobile-home-trade-wrapper {
+        display: none;
+    }
+}

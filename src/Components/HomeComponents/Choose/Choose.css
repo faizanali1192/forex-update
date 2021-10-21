@@ -1,0 +1,65 @@
+.home-choose-cards-shadow {
+    box-shadow: 10px 10px 5px 0px rgba(77, 55, 55, 0.41);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(77, 55, 55, 0.41);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(77, 55, 55, 0.41);
+}
+
+@media only screen and (min-width: 768px) {
+    .home-choose-wrapper {
+        background-image: url("../../../Assets/Images/trading-hero.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-top: 100px;
+        padding-bottom: 50px;
+        height: auto;
+    }
+    .home-choose-card-heading {
+        color: #9F3233;
+    }
+    .home-choose-card-text {
+        font-size: 18px;
+    }
+    .home-choose-cards-left {
+        padding-right: 40px !important;
+    }
+    .home-choose-cards-right {
+        padding-left: 40px !important;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .home-choose-wrapper {
+        background-image: url("../../../Assets/Images/trading-hero.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-top: 50px;
+        padding-bottom: 20px;
+        height: auto;
+    }
+    .home-choose-card-heading {
+        color: #9F3233;
+    }
+    .homechoose-cards {
+        padding: 20px;
+    }
+    .choose-card-heading-circle-wrapper {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+    }
+    .choose-card-heading-circle {
+        border: 5px solid #9F3233;
+        background-color: white;
+        width: 80px;
+        height: 80px;
+        border-radius: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: -65px;
+    }
+}

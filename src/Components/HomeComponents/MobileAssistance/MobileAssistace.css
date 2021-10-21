@@ -1,0 +1,15 @@
+.home-mobile-assistance-wrapper {
+    height: auto;
+    background-color: #9899AE;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.home-mobile-assistance-image {
+    max-height: 300px;
+}
+@media only screen and (min-width: 768px) {
+    .home-mobile-assistance-wrapper {
+        display: none;
+    }
+}

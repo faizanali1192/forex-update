@@ -1,0 +1,30 @@
+.accounts-funding-btn {
+    border: none;
+    background-color: #A13234;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.accounts-funding-btn:hover {
+    background-color: #690809;
+}
+
+/* li {
+
+    list-style-type: disc !important;
+    font-weight: 400 !important;
+}
+ */
+
+/* li::before {
+    content: "•";
+    color: red;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+    font-size: 25px;
+    
+} */
